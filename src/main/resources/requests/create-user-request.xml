@@ -1,0 +1,16 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:gs="http://alex.ru/soapdemo/DTO">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <gs:createUserRequest>
+            <gs:username>Зема</gs:username>
+            <gs:login>Zema</gs:login>
+            <gs:password>Zema123</gs:password>
+            <gs:roles>
+                <gs:role>
+                    <gs:name>Аналитик</gs:name>
+                </gs:role>
+            </gs:roles>
+        </gs:createUserRequest>
+    </soapenv:Body>
+</soapenv:Envelope>

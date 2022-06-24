@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:gs="http://alex.ru/soapdemo/DTO">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <gs:deleteUserRequest>
+            <gs:username>Зема</gs:username>
+        </gs:deleteUserRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
